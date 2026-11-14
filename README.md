@@ -18,3 +18,25 @@ pip freeze > requirements.txt
 # Inicializar servidor FastAPI
 uvicorn src.app:app --host=127.0.0.1 --port=8000 --reload=True
 ```
+
+## Clonar y ejecutar repositorio
+
+```bash
+# Clonar repositorio
+git clone https://github.com/itsronalds/fastapi-ecommerce.git
+
+# Entran en el repositorio
+cd fastapi-ecommerce
+
+# Crear entorno virtual (venv)
+python -m venv venv
+
+# Ingresar al entorno virtual
+.\venv\Scripts\activate
+
+# Instalar dependencias dentro del venv
+pip install -r requirements.txt
+
+# Ejeuctar el proyecto
+py main.py
+```
